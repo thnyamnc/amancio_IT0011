@@ -34,37 +34,3 @@ print("Vowels:", vowels)
 print("Consonants:", consonants)
 print("Spaces:", spaces)
 print("Other characters:", others)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Get input from user
-digit_string = input("Enter a string of digits: ")
-
-
-# Initialize sum variable
-sum_of_digits = 0
-
-
-# Loop through each character in the string
-for digit in digit_string:
-    if digit.isdigit():  # Ensure the character is a digit
-        sum_of_digits += int(digit)
-
-
-# Print the result
-print("Sum of digits:", sum_of_digits)
